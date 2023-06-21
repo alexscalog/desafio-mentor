@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/desafioMentor/static/css/main.073c9b0a.css",
+    "main.js": "/desafioMentor/static/js/main.d614a646.js",
+    "static/js/787.6bc1d4f3.chunk.js": "/desafioMentor/static/js/787.6bc1d4f3.chunk.js",
+    "index.html": "/desafioMentor/index.html",
+    "main.073c9b0a.css.map": "/desafioMentor/static/css/main.073c9b0a.css.map",
+    "main.d614a646.js.map": "/desafioMentor/static/js/main.d614a646.js.map",
+    "787.6bc1d4f3.chunk.js.map": "/desafioMentor/static/js/787.6bc1d4f3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.d614a646.js"
+  ]
+}
