@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/desafioMentor/static/css/main.073c9b0a.css",
-    "main.js": "/desafioMentor/static/js/main.d614a646.js",
-    "static/js/787.6bc1d4f3.chunk.js": "/desafioMentor/static/js/787.6bc1d4f3.chunk.js",
-    "index.html": "/desafioMentor/index.html",
-    "main.073c9b0a.css.map": "/desafioMentor/static/css/main.073c9b0a.css.map",
-    "main.d614a646.js.map": "/desafioMentor/static/js/main.d614a646.js.map",
-    "787.6bc1d4f3.chunk.js.map": "/desafioMentor/static/js/787.6bc1d4f3.chunk.js.map"
+    "main.css": "/desafio-mentor/static/css/main.073c9b0a.css",
+    "main.js": "/desafio-mentor/static/js/main.c1b1db1e.js",
+    "static/js/787.6bc1d4f3.chunk.js": "/desafio-mentor/static/js/787.6bc1d4f3.chunk.js",
+    "index.html": "/desafio-mentor/index.html",
+    "main.073c9b0a.css.map": "/desafio-mentor/static/css/main.073c9b0a.css.map",
+    "main.c1b1db1e.js.map": "/desafio-mentor/static/js/main.c1b1db1e.js.map",
+    "787.6bc1d4f3.chunk.js.map": "/desafio-mentor/static/js/787.6bc1d4f3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.d614a646.js"
+    "static/js/main.c1b1db1e.js"
   ]
 }
