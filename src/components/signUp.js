@@ -1,9 +1,8 @@
 
 import './login.css';
-
 import React, { Component } from 'react';
 
-export default class Login extends Component {
+export default class SignUp extends Component {
 
     constructor(props) {
         super(props);
@@ -28,13 +27,21 @@ export default class Login extends Component {
     onSubmit(e) {
         
         e.preventDefault()
+        this.setState({mensaje: ''})
     
         let registeredUsers = JSON.parse(localStorage.getItem('users'));
-        let user = registeredUsers.users.find(u => u.email === this.state.email);
-        if (user && user.password === this.state.password){ 
-          this.setState({mensaje: 'Correcto'})
-        } else { this.setState({mensaje: 'Incorrecto'})};
-       
+        if (registeredUsers.users.find(u => u.email === this.state.email)){
+            this.setState({mensaje: '¡Ya existe un usuario con ese email!'})
+            
+        } else {
+        registeredUsers.users.push({email:this.state.email, password:this.state.password})
+        
+        localStorage.setItem('users', JSON.stringify(registeredUsers));
+        this.setState({mensaje: '¡Se ha registrado correctamente!'})
+
+        }
+        
+        
         this.setState({
             
             email: '',
@@ -44,9 +51,10 @@ export default class Login extends Component {
   
     render(){
         return (
-            <div className="Login">
-              <h1>Inicia Sesión</h1>
-             <form onSubmit={this.onSubmit}>
+            <div className="signUp">
+                
+                <h1>Registrarse</h1>
+             <form onSubmit={this.onSubmit} className='form'>
                 <div className="form-group">
                   <label  className="form-label">
                     Email address
@@ -71,3 +79,4 @@ export default class Login extends Component {
           );
     }
 }
+
