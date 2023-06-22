@@ -9,15 +9,15 @@ const Layout = () => {
           <div></div>
 
           <div className="d-flex justify-content-around w-25" >
-            <Link className="nav-link" to="">
+            <Link className="nav-link" to="/">
               Home
             </Link>
 
-            <Link className="nav-link" to="login">
+            <Link className="nav-link" to="/login">
               Login
             </Link>
 
-            <Link className="nav-link" to="sign-up">
+            <Link className="nav-link" to="/sign-up">
               Sign Up
             </Link>
           </div>
