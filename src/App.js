@@ -12,8 +12,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route path ="desafio-mentor" element={<Home />} />
+        <Route path="/desafio-mentor" element={<Layout />}>
+          <Route index element={<Home />} />
           <Route path="login" element={<Login />} />
           <Route path="sign-up" element={<SignUp />} />
           <Route path="*" element={<NoPage />} />
