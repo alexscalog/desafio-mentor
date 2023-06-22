@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/desafio-mentor/static/css/main.30ea52ad.css",
-    "main.js": "/desafio-mentor/static/js/main.505357e9.js",
+    "main.js": "/desafio-mentor/static/js/main.7c7d0ccd.js",
     "index.html": "/desafio-mentor/index.html",
     "main.30ea52ad.css.map": "/desafio-mentor/static/css/main.30ea52ad.css.map",
-    "main.505357e9.js.map": "/desafio-mentor/static/js/main.505357e9.js.map"
+    "main.7c7d0ccd.js.map": "/desafio-mentor/static/js/main.7c7d0ccd.js.map"
   },
   "entrypoints": [
     "static/css/main.30ea52ad.css",
-    "static/js/main.505357e9.js"
+    "static/js/main.7c7d0ccd.js"
   ]
 }
