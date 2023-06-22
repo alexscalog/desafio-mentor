@@ -28,8 +28,11 @@ export default class SignUp extends Component {
         
         e.preventDefault()
         this.setState({mensaje: ''})
-    
-        let registeredUsers = JSON.parse(localStorage.getItem('users'));
+        if (localStorage.getItem('users')=== null){
+            localStorage.setItem('users', JSON.stringify({users: []}));
+        }
+        
+        const registeredUsers = JSON.parse(localStorage.getItem('users'));
         if (registeredUsers.users.find(u => u.email === this.state.email)){
             this.setState({mensaje: '¡Ya existe un usuario con ese email!'})
             

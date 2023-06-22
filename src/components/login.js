@@ -28,6 +28,9 @@ export default class Login extends Component {
     onSubmit(e) {
         
         e.preventDefault()
+        if (localStorage.getItem('users')=== null){
+          localStorage.setItem('users', JSON.stringify({users: []}));
+      }
     
         let registeredUsers = JSON.parse(localStorage.getItem('users'));
         let user = registeredUsers.users.find(u => u.email === this.state.email);
